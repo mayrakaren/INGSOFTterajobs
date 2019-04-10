@@ -1,0 +1,12 @@
+<nav>
+
+    <a *ngIf="isValidate">Perfil</a>
+    
+    <button routerLink="/registro" *ngIf="isValidate" routerLinkActive="active" (click)= "isValidateC()">Cerrar Sesión</button>
+ </nav>
+<div class="md-form active-pink active-pink-2 mb-3">
+    <br>
+    <input class="form-control" type="search" id="search1" aria-label="Search" mdbInput>
+    <button type="button" class="btn btn-primary">Buscar</button>
+  </div>
+
